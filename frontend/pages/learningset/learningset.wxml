@@ -1,0 +1,23 @@
+<view class ="{{skinStyle}}">
+  <view class="title">单词设置</view>    
+    <picker bindchange="studycountchange" value="{{studyindex}}" range="{{countarray}}">
+      <view class="box">
+        <button class="button">单次学习量</button>
+        <view class="view">{{studycount}}</view> 
+      </view>
+    </picker>
+    
+    <picker bindchange="reviewcountchange" value="{{reviewindex}}" range="{{countarray}}">
+      <view class="box">
+        <button class ='button'>单次复习量</button>
+        <view class="view">{{reviewcount}}</view> 
+      </view>
+    </picker>
+  <view class="title">学习模式设置</view>
+    <picker bindchange="modecountchange" value="{{modeindex}}" range="{{modesarray}}">
+      <view class="box">
+        <button class ='button'>学习模式</button>
+        <view class="view">{{studymode}}</view> 
+      </view>
+    </picker>
+</view>

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fight/fight",
+    "pages/homepage/homepage",
+    "pages/self/self",
+    "pages/logs/logs",
+    "pages/selectbook/selectbook",
+    "pages/words/words",
+    "pages/changeuserinfo/changenickname",
+    "pages/changeuserinfo/changegender",
+    "pages/changeuserinfo/changeimage",
+    "pages/changeuserinfo/changeintroduction",
+    "pages/word/word",
+    "pages/mynotebook/mynotebook",
+    "pages/study/study",
+    "pages/review/review",
+    "pages/settings/settings",
+    "pages/books/books",
+    "pages/selfset/selfset",
+    "pages/learningset/learningset",
+    "pages/about/about",
+    "pages/shop/shop",
+    "pages/shopbook/shopbook",
+    "pages/shopdetail/shopdetail",
+    "pages/study/studych_spell",
+    "pages/review/reviewch_spell",
+    "pages/study/studyaudio_ch",
+    "pages/review/reviewaudio_ch",
+    "pages/study/studych_en",
+    "pages/review/reviewch_en",
+    "pages/study/studych_select",
+    "pages/review/reviewch_select"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

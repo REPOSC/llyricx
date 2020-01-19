@@ -1,0 +1,27 @@
+
+<template name="shopbook">
+  <view>
+    <view class="ibox-top">
+     <view class="ibox-title">
+      <view class="switch-type">
+        <view class="btn">{{state == "my" ? "我的书籍" : "商城书籍"}}</view>
+      </view>
+     </view>
+     <view class="ibox-refresh" bindtap="toRefresh">切换</view>
+     
+    </view>
+    <view class="list-container">
+      <view class="list-ui">
+          <block wx:for="{{bookList}}">
+                  <navigator class="list-nav"  hover-class="nav-hover" url="../shopdetail/shopdetail?bookid={{item.id}}&buyvisible={{state == 'my' ? 'false' : 'true'}}">
+                    <view >
+                        <image mode='aspectToFill' class="book-item-img" src="{{item.image}}"/>
+                    </view>
+                      <view class="book-title">{{item.bookname}}</view>
+                  </navigator>
+     
+          </block>
+      </view>
+    </view>
+  </view>
+</template>

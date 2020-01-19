@@ -1,0 +1,13 @@
+<!--pages/changeuserinfo/changenickname.wxml-->
+<view class="{{skinStyle}}">
+    <view class='changeuserinfo_selectbutton'>输入您的个人简介</view>
+    <scroll-view
+      scroll-y
+    >
+    <view class="changeuserinfo_nickname_arr" >
+      <textarea focus="true"confirm-type="done" bindinput='wordInput'/>
+    </view>
+    <button  bindtap="confirm">确定</button>
+    <button  bindtap="cancel">取消</button>
+    </scroll-view>
+</view>

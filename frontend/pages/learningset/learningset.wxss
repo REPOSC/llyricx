@@ -1,0 +1,39 @@
+@import "../../app.wxss";
+page{
+  height: 100%;
+}
+
+
+.title{
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  font-size: 32rpx;
+  color: green;
+}
+
+.view{  
+  margin-top: 40rpx;
+  font-size: 32rpx;
+  display: flex;
+  margin-right: 40rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.box{
+  height: 80rpx;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction:row;
+}
+
+.button{
+  justify-items: center;
+  color: black;
+  background-color:  pink;
+  font-size: 32rpx;
+  width: 60%;
+  display: flex;
+  height: 80rpx;
+}

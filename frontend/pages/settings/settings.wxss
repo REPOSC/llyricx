@@ -1,0 +1,142 @@
+/*横向布局  */
+page{
+  height:100%;
+}
+.layout_horizontal{
+  margin-top: 40rpx;
+  height: 100rpx;
+  display: flex;
+  border: 1px solid;
+  border-color:ghostwhite;
+  /*row 横向  column 列表  */
+  flex-direction: row;
+}
+.head{
+  height: 240rpx;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  border-color:ghostwhite;
+}
+
+.userimage{
+  border: 1px solid;
+  border-color:ghostwhite;
+  height: 100%;
+  width: 36%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.row{
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+}
+.column{
+ display: flex;
+ flex-direction:column;
+ text-align: center;
+}
+.message{
+  margin-top:40rpx; 
+  height: 100rpx;
+  background-color: rgb(255, 255, 255);
+  font-size: 32rpx;
+  align-items: center;
+  display: flex;
+  border: 1px solid;
+  border-color:ghostwhite;
+}
+
+.head{
+  height: 300rpx;
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  padding: 60rpx 0rpx;
+  align-items: center; 
+  justify-content: space-between;
+  background: #f7fa3c;
+  font-size: 32rpx;
+}
+.head image
+{
+  width:150rpx;
+  height:150rpx;
+  margin:0 auto;
+  border-radius: 50%;
+}
+.list-wrapper {
+  margin-bottom: 120rpx;
+  width: 100%;
+}
+
+/* 横着的分割View样式 */
+/*分割线样式*/
+.div-line{
+  background: #E0E3DA;
+  width: 100%;
+  height: 3rpx;
+}
+
+.list-item {
+  width: 100%;
+  height: 120rpx;
+}
+.btn{
+  background: transparent;
+  margin: 0;
+  color:black;
+  width: 100%;
+  height: 120rpx;
+
+}
+.list-item_active {
+  background-color: #E0E3DA;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  height: 120rpx;
+  width: 100%;
+}
+.item-text {
+  width: 40%;
+  display:inline-block;
+  margin-left: 60rpx;
+  font-size: 36rpx;
+}
+
+.item-array {
+  display: inline-block;
+  width: 10%;
+  margin-left:30%;
+  font-size: 38rpx;
+}
+
+.item-image {
+  display:inline-block;
+  margin-left: 30rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.btn-image {
+  display:inline-block;
+  width: 40rpx;
+  height: 40rpx;
+}
+.btn-text {
+  display:inline-block;
+  margin-left: 60rpx;
+  font-size: 36rpx;
+  width: 300rpx;
+  text-align: left;
+}
+.btn-array {
+  display: inline-block;
+  width: 10%;
+  margin-left:30%;
+  font-size: 38rpx;
+}

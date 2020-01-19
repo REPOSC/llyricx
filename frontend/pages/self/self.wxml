@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class = "{{skinStyle}}">
+
+  <view class='image_row'>
+    <image src="{{srcuserimage}}" class="userimage"></image>
+
+      <view class='textcol'>
+        <view class="usertext">欢迎您，用户{{nickname}}</view>
+        <view class='usertext'>金币数：{{moneycount}}</view>
+        <scroll-view class="userintro" scroll-x="true"  >
+        <view  display='inline-block'>个人简介：{{introduction}}</view>
+      </scroll-view>
+      </view>
+
+  </view>
+  
+ 
+
+  <view class="all_items">
+    <button bindtap='changenickname' class='selectbutton'>修改昵称</button>    
+    <button bindtap='changegender' class='selectbutton'>修改性别</button>   
+    <button bindtap='changeimage' class='selectbutton'>修改头像</button>   
+    <button bindtap='changeintroduction' class='selectbutton'>{{addorchangeintroduction}}个人简介</button>
+  </view>
+
+</view>

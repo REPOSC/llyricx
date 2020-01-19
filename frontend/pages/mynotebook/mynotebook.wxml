@@ -1,0 +1,11 @@
+<!--pages/mynotebook/mynotebook.wxml-->
+<view class="{{skinStyle}}">
+  <view>我的单词本：</view>
+  <scroll-view
+    scroll-y
+  >
+    <view wx:for="{{wordlist}}" bindtap='clickselectitem' id='{{index}}' class='selectview'>
+      {{item.en}}
+    </view>
+  </scroll-view>
+</view>

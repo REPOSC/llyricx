@@ -1,0 +1,7 @@
+<!--pages/recite words/recite.wxml-->
+<view class="{{skinStyle}}" >
+  <progress class="progress" percent= '{{percent}}' show-info />
+  <view class="word">{{presentword.ch}}</view>
+  <input placeholder="拼写这个单词" value="{{input}}" class='submit'  bindinput="bindkeyinput"></input>
+  <button bindtap="submit" disabled='{{locked}}'>确定</button>
+</view>

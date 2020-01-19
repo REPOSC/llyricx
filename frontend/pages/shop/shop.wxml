@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="{{skinStyle}}">
+<view class="container">
+   
+    <scroll-view class="wrapper-scroll" scroll-y="true"  scroll-top="100">
+        <view class="banner-box">
+          <view class="search-box"> 
+            <view class="search-icon">
+              <image src="../../figures/icon_search.png"></image>
+            </view> 
+            <input class="search-input" bindinput='wordInput'>搜书名</input>
+            <text class="search-btn" bindtap='init'>搜索</text>
+          </view>
+        <swiper class="banner-bg"  indicator-dots="true"
+ autoplay="true" interval="5000" duration="1000">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                <image src="{{item}}" class="slide-image" />
+                </swiper-item>
+            </block>
+        </swiper>
+        </view>
+
+         <import src="../shopbook/shopbook.wxml"/>
+         <template is="shopbook"data="{{bookList: bookList,state:state}}"/>
+      
+    </scroll-view>
+</view>
+</view>

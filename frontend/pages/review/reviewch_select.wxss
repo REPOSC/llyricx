@@ -1,0 +1,46 @@
+page{
+  height: 100%;
+}
+
+.word{
+   height: 100rpx;
+  margin-top: 100rpx; 
+  font-size: 40rpx;
+  align-items: center;
+  justify-content:space-around;
+  display: flex;
+}
+
+.submit{
+  align-items: center;
+  justify-content:space-around;
+  font-style: italic;
+  height: 100rpx;
+  box-shadow: 4px 4px 4px 4px #cccccc;
+  margin: 40rpx;
+  display: flex;
+  box-sizing: border-box; 
+}
+
+
+.englishlist{
+  margin-top: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+
+}
+
+
+.english{
+  align-items: center;
+  justify-content:center;
+  font-style: italic;
+  width: 60%;
+  height: 60px;
+  box-shadow: 1px 1px 1px 1px #cccccc;
+  margin-top: 40rpx;
+  display: flex;
+  border-radius: 98rpx;
+}

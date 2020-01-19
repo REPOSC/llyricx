@@ -1,0 +1,31 @@
+<view class ="{{skinStyle}}">
+  <view class="list-wrapper">
+      <view  class="list-item" hover-class="list-item_active" bindtap='clearbuffer'>
+        <view class='item'>
+          <text class="item-text">清除缓存</text>
+        </view>
+        <view class="div-line"></view>
+      </view>
+      <view  class="list-item" hover-class="list-item_active" bindtap='go_learningset'>
+        <view class='item'>
+          <text class="item-text">学习设置</text>
+          <text class='item-array'>></text>
+        </view>
+        <view class="div-line"></view>
+      </view>
+      <view  class="list-item" hover-class="list-item_active" >
+        <view class='item'>
+          <text class="item-text">夜间</text>
+          <switch class="item-array" checked="{{ischecked}}" bindchange="switchChange" color ="#F39C89" />
+        </view>
+        <view class="div-line"></view>
+      </view>
+      <view  class="list-item" hover-class="list-item_active" bindtap='go_about'>
+        <view class='item'>
+          <text class="item-text">关于</text>
+          <text class='item-array'>></text>
+        </view>
+        <view class="div-line"></view>
+      </view>
+  </view>
+</view>

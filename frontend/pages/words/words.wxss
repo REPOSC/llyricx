@@ -1,0 +1,59 @@
+/* pages/word/word.wxss */
+page{
+  height:100%;
+}
+.title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60rpx;
+  color: gray;
+}
+
+
+.book{
+  font-size: 32rpx;
+  color: #00aa00;
+}
+.word{
+  
+  height: 100rpx;
+  margin-top: 20rpx; 
+  font-size: 40rpx;
+  align-items: center;
+  justify-content:space-around;
+  font-style: italic;
+  display: flex;
+}
+
+.words {
+  margin-left: 2%;
+  width: 96%;
+  height: 200rpx;
+  box-shadow: 4px 4px 4px 4px #cccccc;
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box; 
+} 
+.en{
+  margin-left: 10%;
+}
+
+.ch{
+  margin-left: 10%;
+  font-size: 30rpx;
+  color: gray;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notfound{
+  color: #aa0000;
+  font-family: '仿宋';
+  font-size: 60rpx;
+}
+
+.selectbutton{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 50rpx;
+}

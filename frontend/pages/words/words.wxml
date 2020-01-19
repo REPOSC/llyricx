@@ -1,0 +1,17 @@
+<view class = "{{skinStyle}}">
+  <view class = "title">单词查询结果</view>
+  <view wx:if = "{{checkwordslist}}">
+      <view class = "words" wx:for="{{checkwordslist}}" bindtap='gotoword' id='{{index}}'>
+        <view class ="book" id='{{index}}'>{{item.book}}</view>
+        <view class = "word" id='{{index}}'>
+          <view class="en" id='{{index}}'>{{item.en}}</view>
+          <view class="ch" id='{{index}}'>{{item.ch}}</view>
+        </view>
+      </view>
+  </view>
+  <view wx:else class="notfound">
+    没有找到您要查询的单词
+  </view>
+
+  <button bindtap='goback' >返回</button>
+</view>

@@ -1,0 +1,9 @@
+<view class="{{skinStyle}}" >
+<image class="image" mode="scaleToFill" src="../../figures/cube.png"></image>
+<view class='title'>MOCA单词 v2.01</view>
+<view>开发者信息</view>
+<view>南开大学LLyricx小组</view>
+<view>本软件已开源，基于Apache 2.0许可证</view>
+<view class="web">git地址</view>
+<view class="website">https://git.code.tencent.com/FuEnEnglish/LLyricx.git</view>
+</view>

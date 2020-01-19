@@ -1,0 +1,25 @@
+.title{
+  margin-top: 5%;
+}
+
+.list-container view::after{
+  clear:both;
+  content:'.';
+  display:block;
+  visibility:hidden;
+}
+
+.book-item-img{
+  height: 800rpx;
+}
+.book-title{
+  font-size: 48rpx;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card{
+  margin: 10%
+}

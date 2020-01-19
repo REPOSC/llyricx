@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="{{skinStyle}}">
+    <view>选择您的性别：</view>
+      <button wx:for="{{genderlist}}" bindtap='clickselectitem' id='{{item.id}}' >
+        {{item.name}}
+      </button>
+</view>

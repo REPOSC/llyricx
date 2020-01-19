@@ -1,0 +1,27 @@
+@import "../../app.wxss";
+page{
+  height: 100%;
+}
+
+.word{
+  height: 100rpx;
+  margin-top: 60rpx; 
+  font-size: 40rpx;
+  align-items: center;
+  justify-content:space-around;
+  display: flex;
+}
+
+.progress{
+  margin-top: 40rpx;
+  stroke-width:12rpx;  
+}
+
+.submit{
+  align-items: center;
+  font-style: italic;
+  height: 100rpx;
+  border: 1px solid;
+  margin: 20rpx;
+}
+

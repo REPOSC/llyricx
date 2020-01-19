@@ -1,0 +1,31 @@
+/* pages/word/word.wxss */
+page{
+  height: 100%;
+}
+.en{
+  margin-left: 10%;
+  font-size: 60rpx;
+  line-height: 100rpx;
+}
+
+.ch{
+  margin-left: 10%;
+  font-size: 30rpx;
+  color: gray;
+  line-height: 100rpx;
+}
+
+.img{
+  margin-left: 10%;
+  width: 10%;
+  height: 80rpx;
+  line-height: 100rpx;
+}
+
+.selectbutton{
+  margin: 20rpx
+}
+
+.small{
+  font-family: 仿宋
+}

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class = "{{skinStyle}}">
+  <view class="all_items">
+    <view>词书：</view>
+    <scroll-view scroll-y>
+      <button wx:for="{{booklist}}" bindtap='clickselectitem' id='{{item.id}}' >
+        {{item.bookname}}
+      </button>
+    </scroll-view>
+  </view>
+</view>

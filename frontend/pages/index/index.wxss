@@ -1,0 +1,56 @@
+/**index.wxss**/
+page{
+  height:100%;
+}
+.title{
+  height: 128rpx;
+  margin: 20rpx;  
+}
+
+.userinfo {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.login-button {
+  margin-top: 80px;
+  color:#a00;
+}
+
+.title{
+  font-size: 80rpx;
+}
+
+.subtitle{
+  font-size: 50rpx
+}
+
+image {   
+  width:40px;  
+  height:40px;
+}
+.contain {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+.btn{
+  margin:20%; 
+  width: 80%;
+  color: whitesmoke;
+  background-color: rgb(6, 138, 109);
+}

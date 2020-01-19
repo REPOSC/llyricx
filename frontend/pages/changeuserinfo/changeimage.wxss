@@ -1,0 +1,13 @@
+/* pages/changeuserinfo/changeimage.wxss */
+/* .all_items{
+  margin: 50rpx;
+}
+.selectbutton{
+  margin: 20rpx
+} */
+
+
+@import "../../app.wxss";
+page{
+  height:100%;
+}

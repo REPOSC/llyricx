@@ -1,0 +1,24 @@
+<!--pages/word/word.wxml-->
+<view class="{{skinStyle}}">
+  <view class="en" style='color:{{encolor}}' >{{word.en}}</view>
+  <image class="img" src='../../figures/horn.png' bindtap='playword'></image>
+  <view class="ch" >{{word.ch}}</view>
+  <image class="img" src='{{addimage}}' bindtap='addtovocabook'></image>
+  <button bindtap='goback' >返回</button>
+
+  <br/>
+  <br/>
+
+  <button bindtap='opencollins' >点击{{openorclosecollins}}柯林斯词典</button>
+  <view class="small" wx:if="{{collinsopened}}">
+    <view wx:if="{{hascollins}}">
+      <view> <text> 【英文】{{collins.en}} </text> </view>
+      <view> <text> 【音标】{{collins.phonetic}} </text> </view>
+      <view> <text> 【英文释义】{{collins.definition}} </text> </view>
+      <view> <text> 【中文释义】{{collins.translation}} </text> </view>
+    </view>
+    <view wx:else="{{hascollins}}">
+      抱歉，无法在柯林斯词典中查找到该词汇
+    </view>
+  </view>
+</view>

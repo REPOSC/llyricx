@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<import src="../template/template.wxml" />
+<view class ="{{skinStyle}}"> 
+  <template is="tabbar"data="{{tabbar}}"></template>
+  <view class = 'paged'>
+    <view class='page_row'>
+        <view class="search_arr">
+          <image class="searchcion"  src='../../figures/icon_search.png'></image>
+          <input placeholder="请输入单词"bindinput='wordInput'focus="true"confirm-type="done"/> 
+        </view>
+        <view class='homepage_search' bindtap='searchWord'>搜索</view>
+    </view> 
+    <view class='image_row'>
+      <image src="{{srcbookimage}}" class="bookimage" mode='widthFix'></image>
+      <view class='textcol'>
+        <view class="booktext">{{usingbook}}</view>
+        <view class="booktext">共{{wordcount}}个单词</view>
+        <view class="booktext">您已学习{{studiedwordcount}}个单词</view>      
+      </view>
+    </view>
+    <view>   <!--learn_button-->
+      <button class = "btn" bindtap='selectbook'>{{selectorchangebook}}</button>
+      <button class = "btn" disabled="{{usingbookid == null}}" bindtap="go_study">开始背单词</button>
+      <button class = "btn" disabled="{{usingbookid == null}}" bindtap="go_review">复习单词</button>
+    </view>
+  </view>
+</view>
+
+
+
+
+
+   

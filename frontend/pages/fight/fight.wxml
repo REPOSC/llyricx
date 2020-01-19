@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<import src="../template/template.wxml" />
+<view>
+  <template is="tabbar"data="{{tabbar}}"></template>
+  <button bindtap="go_homepage"> homepage </button>
+  <button disabled="{{disabled}}" > fight </button>
+  <button bindtap="go_self"> self </button>
+</view>

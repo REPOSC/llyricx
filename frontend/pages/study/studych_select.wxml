@@ -1,0 +1,13 @@
+<!--pages/recite words/recite.wxml-->
+<view class="{{skinStyle}}" >
+  <progress class="progress" percent= '{{percent}}' show-info />
+<view class="word">{{presentword.ch}}</view>
+<text wx:for="{{partselectedlist}}">{{item}}</text>
+<view class='englishlist'>
+	<button class='english' bindtap='remove'>撤销</button>
+	<button class='english' wx:for="{{partlist}}" id="{{index}}" bindtap='select' disabled='{{selected[index]}}'>
+		{{item}}
+	 </button>
+	<button class='english' bindtap="submit" disabled='{{locked}}'>确定</button>
+</view>
+</view>

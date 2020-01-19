@@ -1,0 +1,14 @@
+/* pages/mynotebook/mynotebook.wxss */
+@import "../../app.wxss";
+page{
+  height: 100%;
+}
+.all_items{
+  margin: 50rpx;
+}
+.selectview{
+  margin: 20rpx;
+  text-align: center;
+  border: solid 1rpx #000000;
+  line-height: 100rpx;
+}

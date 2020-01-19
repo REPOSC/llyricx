@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="{{skinStyle}}">
+  <view class='title'>选择您的词书：</view>
+ 
+  <view>
+      <button wx:for="{{booklist}}" bindtap='clickselectitem' id='{{item.id}}' class='card'>
+        <view>
+            <image class="book-item-img" src="{{item.image}}"/>
+        </view>
+        <view class="book-title">{{item.bookname}}</view>
+      </button>
+  </view>
+</view>

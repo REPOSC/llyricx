@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<import src="../template/template.wxml" />
+<view class ="{{skinStyle}}">
+<template is="tabbar"data="{{tabbar}}"></template>
+    <view class = "head" bindtap='go_self'>
+      <image src="{{srcuserimage}}" class="userimage"></image>
+      <view class = "column">
+        <view > {{nickname}}</view>
+        <view > 金币: {{moneycount}}</view>
+      </view>
+</view>
+
+ <view class="list-wrapper">
+
+
+       <button  class="btn" hover-class="list-item_active"  bindtap='go_mynotebook'>
+        <view class='item'>
+          <view>
+            <image class='btn-image'  src='../../figures/my_book.png'></image>
+            <text class="btn-text">我的词库</text>
+          </view>
+         <view  class='btn-array'>></view>
+        </view>
+        <view class="div-line"></view>
+      </button>
+     
+
+      <button  class="btn" hover-class="list-item_active"  bindtap='go_shop'>
+        <view class='item'>
+          <view>
+            <image class='btn-image' src='../../figures/my_shop.png'></image>
+            <text class="btn-text">商店</text>
+          </view>
+         <view  class='btn-array'>></view>
+        </view>
+        <view class="div-line"></view>
+      </button>
+
+
+      <button  class="btn" hover-class="list-item_active" bindtap='go_selfset'>
+        <view class='item'>
+          <view>
+            <image class='btn-image' src='../../figures/my_setting.png'></image>
+            <text class="btn-text">设置</text>
+          </view>
+         <view  class='btn-array'>></view>
+        </view>
+        <view class="div-line"></view>
+      </button>
+      
+      <button  class="btn" hover-class="list-item_active" open-type="share">
+        <view class='item'>
+          <view>
+            <image class='btn-image' src='../../figures/my_share.png'></image>
+            <text class="btn-text">分享小程序</text>
+          </view>
+         <view  class='btn-array'>></view>
+        </view>
+        <view class="div-line"></view>
+      </button>
+
+
+  </view>
+</view>

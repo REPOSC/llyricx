@@ -1,0 +1,8 @@
+<!--pages/changeuserinfo/changeimage.wxml-->
+<view class="{{skinStyle}}">
+    <view>上传您的新头像</view>
+    <image src="{{imagesrc}}" mode='scaleToFill'> </image>
+    <button bindtap='uploadsrc' >选择图片</button>
+    <button bindtap='confirm' >确定上传</button>
+    <button bindtap='cancel' >取消上传</button>
+</view>

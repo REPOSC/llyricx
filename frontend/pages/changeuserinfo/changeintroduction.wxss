@@ -1,0 +1,20 @@
+/* pages/changeuserinfo/changenickname.wxss
+.all_items{
+  margin: 50rpx;
+}
+.selectbutton{
+  margin: 20rpx
+}
+.nickname_arr {  
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+  margin: 20rpx;
+  font-size: 60rpx;
+  padding: 20rpx;
+}   */
+
+@import "../../app.wxss";
+page{
+  height:100%;
+}
+

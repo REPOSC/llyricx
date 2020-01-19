@@ -1,0 +1,7 @@
+backend/__pycache__
+backend/app/__pycache__
+backend/backend/__pycache__
+backend/Log.txt
+backend/app/migrations/__pycache__
+backend/media/user_image
+backend/.idea/
